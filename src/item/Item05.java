@@ -6,7 +6,8 @@ import java.util.Stack;
 
 /**
  * Created by Shmily_Z on 2017/9/17.
- *
+ *输入一个链表的头结点，从尾到头反过来打印出每个节点的值。
+ * 我们这里实现了递归和栈两种实现方式。其中应注意栈的相关类及相关方法。
  */
 public class Item05 {
 
