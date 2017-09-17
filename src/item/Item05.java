@@ -6,6 +6,8 @@ import java.util.Stack;
 
 /**
  * Created by Shmily_Z on 2017/9/17.
+ * 解题思路，我们重新排列这个数组，首先比较这个数字是不是等于i，如果是，则接着扫描下一个数字，如果不是则再拿出它和第m个数字进行比较，
+ *  如果他和第m个数字相等，就找到了一个重复的数字。
  */
 public class Item05 {
 
@@ -28,7 +30,7 @@ public class Item05 {
         node_four.setNext(null);
         System.out.println("递归实现：");
         print_list_recursion(node_head);
-        System.out.println("栈实现：");
+        System.out.println("栈的实现：");
         print_list_stack(node_head);
 
 
