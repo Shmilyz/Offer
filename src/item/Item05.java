@@ -49,7 +49,7 @@ public class Item05 {
             array=array.getNext();
         }
         while (!stack.isEmpty()){
-//            stack.push()---测试堆栈是否为空。
+//            stack.isEmpty()---测试堆栈是否为空。
             System.out.println(stack.pop());
 //            stack.pop()---移除堆栈顶部的对象，并作为此函数的值返回该对象。
 
