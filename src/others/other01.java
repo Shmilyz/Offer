@@ -6,6 +6,13 @@ import java.io.FileWriter;
 
 /**
  * Created by Shmily_Z on 2017/9/27.
+ *
+ * 编写一个程序，将 a.txt 文件中的单词与 b.txt 文件中的
+ 单词交替合并到 c.txt 文件中，a.txt 文件中的单词用回车符
+ 分隔，b.txt 文件中用回车或空格进行分隔。
+ *
+ *
+ *
  */
 public class other01 {
 

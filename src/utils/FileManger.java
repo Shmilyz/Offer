@@ -14,10 +14,10 @@ public class FileManger {
     public FileManger(String filename,char[] seperators) throws Exception {
 
         File f=new File(filename);
-        FileReader reader=new FileReader(filename);
-        char[] buf=new char[(int) f.length()];
+        FileReader reader = new FileReader(filename);//文件字符流
+        char[] buf = new char[(int)f.length()];//f和文件字符流一样大
+        int len = reader.read(buf);//读取的长度---小文件，一次性读取
         System.out.println((int) f.length());
-        int len=reader.read(buf);
         System.out.println(len);
         String results=new String(buf,0,len);
         String regex=null;
