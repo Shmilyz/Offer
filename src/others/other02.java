@@ -21,7 +21,7 @@ public class other02 {
         });
 
         for (String str:strArr){
-
+        //FileReader和BufferedReader区别，BufferedReader有一个缓存区，我们要加上flush，而且BufferedReader有一个方法为readline
             BufferedReader br=new BufferedReader(new FileReader(new File(file1,str)));
             BufferedWriter bw=new BufferedWriter(new FileWriter(new File(file2,str.replace(".java",".jad"))));
 
